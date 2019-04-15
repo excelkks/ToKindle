@@ -7,7 +7,7 @@ In addition, you will be requred to setup the servers of the sender.
 Here are what you should change in ToKindle.py.
 ```python
 from_addr = 'sender@email.com'
-to_addr = 'acceipt@email.com'
+to_addr = 'recipient@email.com'
 smtp_server = 'example-stmp'
 ```
 #### 2.Send
