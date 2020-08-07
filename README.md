@@ -1,15 +1,15 @@
 # ToKindle
-A python3 script that send your ebook to your kindle.
+A python3 script that sends e-book(s) to your kindle.
 ## Usage
 #### 1.Setup
-You need setup the default email address both sender and receipt in case input them every time.
-In addition, you will be requred to setup the servers of the sender. 
-Here are what you should change in ToKindle.py.
+You need to set up the default email addresses of both sender and recipient to avoid inputting them each time.
+In addition, you will be required to set up server of the sender. 
+Here is what you should change in ToKindle.py.
 ```python
 from_addr = 'sender@email.com'
 to_addr = 'recipient@email.com'
 smtp_server = 'example-stmp'
 ```
 #### 2.Send
-Make sure your ebook at the same path with Tokindle.py. 
-Then, run Tokindle.py. After input your password of the sender email, send-to-kindle start work. at the same time, your ebook will be moved to a new directory named backup. 
+Make sure all your e-books are in the same path as Tokindle.py. 
+Then, run Tokindle.py. After inputting password of the sender email, send-to-kindle start work. At the same time, your e-books will be moved to a new directory named backup. 
