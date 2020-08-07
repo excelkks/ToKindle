@@ -12,4 +12,4 @@ smtp_server = 'example-stmp'
 ```
 #### 2.Send
 Make sure all your e-books are in the same path as Tokindle.py. 
-Then, run Tokindle.py. After inputting password of the sender email, send-to-kindle start work. At the same time, your e-books will be moved to a new directory named backup. 
+Then, run Tokindle.py. After inputting password of the senders email, send-to-kindle start work. At the same time, your e-books will be moved to a new directory named backup. 
